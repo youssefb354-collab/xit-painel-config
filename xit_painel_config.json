@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "ads_enabled": true,
+  "ads_enabled": false,
   "first_session_grace_sec": 0,
   "min_supported_version": "1.0.0",
   "maintenance_message": "",
