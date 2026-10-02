@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "ads_enabled": true,
+  "first_session_grace_sec": 0,
+  "min_supported_version": "1.0.0",
+  "maintenance_message": "",
+  "test_device_ids": [],
+  "app_open": {
+    "enabled": true,
+    "unit_id": "ca-app-pub-5151856074386100/8389289116",
+    "show_on_cold_start": true,
+    "cooldown_sec": 30,
+    "show_on_resume_after_sec": 0
+  },
+  "interstitial": {
+    "enabled": true,
+    "unit_id": "ca-app-pub-5151856074386100/5766246774",
+    "min_interval_sec": 45,
+    "every_n_actions": 1,
+    "max_per_session": 15,
+    "triggers": [
+      "tab_switched",
+      "platform_switched",
+      "preset_saved",
+      "trainer_finished",
+      "ping_finished",
+      "crosshair_exported"
+    ]
+  },
+  "rewarded": {
+    "enabled": true,
+    "unit_id": "ca-app-pub-5151856074386100/1221245534",
+    "reveal_sensi": true,
+    "unlock_pro_crosshair": true,
+    "unlock_duration_hours": 24
+  },
+  "banner": {
+    "enabled": true,
+    "unit_id": "ca-app-pub-5151856074386100/9239336352",
+    "size": "standard",
+    "shown_on_tabs": ["settings"],
+    "hidden_on_tabs": [],
+    "initial_delay_sec": 0
+  },
+  "mediation": {
+    "applovin": true,
+    "unity": true,
+    "liftoff": true,
+    "mintegral": true,
+    "pangle": true
+  }
+}
